@@ -1,5 +1,6 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
+#change motlen here to set the minimum motif length
 motlen = 14
 Scer = SeqIO.read("Scer.fas", "fasta").seq.upper()
 Spar = SeqIO.read("Spar.fas", "fasta").seq.upper()
